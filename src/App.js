@@ -1,8 +1,12 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
-import About from './Components/About/About';
-import Recipe from './Components/Recipe/Recipe';
+import Chinese from './Components/Chinese/Chinese';
+import Thai from './Components/Thai/Thai';
+import Mexican from './Components/Mexican/Mexican';
+import Bangla from './Components/Bangla/Bangla';
+import Contact from './Components/Contact/Contact';
+
 
 function App() {
   return (
@@ -11,8 +15,11 @@ function App() {
      <Routes>
        <Route path="/" element={ <Home /> } />
        <Route exact path="/home" element={ <Home /> } />
-       <Route exact path="/about" element={ <About /> } />
-       <Route exact path="/recipe" element={ <Recipe /> } />
+       <Route exact path="/chinese" element={ <Chinese /> } />
+       <Route exact path="/thai" element={ <Thai /> } />
+       <Route exact path="/mexican" element={ <Mexican /> } />
+       <Route exact path="/bangla" element={ <Bangla /> } />
+       <Route exact path="/contact" element={ <Contact /> } />
      </Routes>
      </BrowserRouter>
     </div>
