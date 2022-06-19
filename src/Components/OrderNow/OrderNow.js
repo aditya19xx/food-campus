@@ -7,7 +7,7 @@ const OrderNow = () => {
       <div className="text-center mt-5 mb-5">
         <h2 className="text-success">Order Now</h2>
       </div>
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div className="col">
           <div className="card h-100">
             <img

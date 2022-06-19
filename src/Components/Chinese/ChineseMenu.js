@@ -6,7 +6,7 @@ const ChineseMenu = () => {
             <div className="mb-5">
             <h3 className="text-white">Here are some special Chinese Items for you</h3>
             </div> 
-            <div className="row row-cols-1 row-cols-md-4 g-4 w-75 mx-auto">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 w-75 mx-auto">
         <div className="col">
           <div className="card h-100">
             <img
