@@ -1,0 +1,13 @@
+.thai{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.792), rgba(0, 0, 0, 0.5)), url('../../resources/img/thai-banner.jpg');
+	height: 100%;
+    width: 100%;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* .thai-banner-text{
+    display: inline-block;
+    margin-top:150px;
+} */

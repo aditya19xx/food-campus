@@ -1,6 +1,6 @@
 .aboutUs{
     background-image:linear-gradient(rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.704)), url('../../resources/img/banner-2.jpg');
-	height: 1000px;
+	height: 100%;
     width: 100%;
 	background-position: center;
   background-repeat: no-repeat;

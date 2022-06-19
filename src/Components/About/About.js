@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       {/* <Navigation></Navigation> */}
-      <div className="aboutUs">
+      <div className="aboutUs mt-5">
         <div>
           <h2
             style={{ position: "relative" }}
@@ -16,7 +16,7 @@ const About = () => {
           </h2>
         </div>
         <div>
-          <p style={{marginTop: "100px", marginBottom: "100px"}} className="text-light text-center">
+          <p style={{marginTop: "100px"}} className="text-light text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas saepe
             laudantium velit earum autem quidem itaque omnis error molestias
             eius asperiores nobis consectetur laborum, corporis nemo accusantium
