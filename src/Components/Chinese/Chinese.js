@@ -1,13 +1,18 @@
 import React from 'react';
+import './Chinese.css';
 import Navigation from '../Navigation/Navigation';
+import ChineseMenu from './ChineseMenu';
 
 const Chinese = () => {
     return (
         <>
             <Navigation></Navigation>
-            <div>
-                <h2>This is Chinese</h2>
-            </div>
+            <div className="chinese">
+                <div className="chinese-banner-text">
+                <h1 className="text-center text-white d-block">Chinese Chart</h1>
+                </div>
+                <ChineseMenu></ChineseMenu>
+                </div>
         </>
     );
 };
